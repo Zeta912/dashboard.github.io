@@ -18,7 +18,7 @@ export const tokens = (mode) => ({
             800: "#292929",
             900: "#141414",
         },
-        Primary: {
+        primary: {
             100: "#d0d1d5",
             200: "#a1a4ab",
             300: "#727681",
@@ -75,7 +75,7 @@ export const tokens = (mode) => ({
             800: "#c2c2c2",
             900: "#e0e0e0",
         },
-        Primary: {
+        primary: {
             100: "#040509",
             200: "#080b12",
             300: "#0c101b",
@@ -132,7 +132,7 @@ export const themeSettings = (mode) => {
             ...(mode) === 'dark'
                 ? {
                     primary: {
-                        main: colors.primary [100],
+                        main: colors.primary[100],
                     },
                     secondary: {
                         main: colors.greenAccent[500],
@@ -140,7 +140,7 @@ export const themeSettings = (mode) => {
                     neutral: {
                         dark: colors.grey[700],
                         main:colors.grey[700],
-                        light:colors.grey[100]
+                        light:colors.grey[100],
                     },
                     background: {
                         default: colors.primary[500],
@@ -155,7 +155,7 @@ export const themeSettings = (mode) => {
                     neutral: {
                         dark: colors.grey[700],
                         main:colors.grey[700],
-                        light:colors.grey[100]
+                        light:colors.grey[100],
                     },
                     background: {
                         default: "#fcfcfc",
